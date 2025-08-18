@@ -30,6 +30,11 @@ const accentFont = Playfair_Display({
 export const metadata: Metadata = {
   title: "Ignite Landing",
   description: "Ignite landing page",
+  icons: {
+    icon: "/IGNITE-LOGO.png",
+    shortcut: "/IGNITE-LOGO.png",
+    apple: "/IGNITE-LOGO.png",
+  },
 };
 
 export default function RootLayout({
